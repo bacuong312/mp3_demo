@@ -86,7 +86,6 @@ class KaraokePage extends ConsumerWidget {
               child: PlayerControls(
                 isPlaying: playback.isPlaying,
                 onPlayPause: playbackNotifier.togglePlayPause,
-                onStop: playbackNotifier.stop,
               ),
             ),
           ],
